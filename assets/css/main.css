@@ -2855,6 +2855,15 @@ input, select, textarea {
 
 /* Button */
 
+			#my-form-status {
+				padding: 1em;
+				background-color: #1a6800;
+				margin-top: 1em;
+			}
+			#my-form-status:empty {
+				display: none;
+			}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
